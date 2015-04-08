@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root to: 'posts#index' 
+  root 'posts#index'
   devise_for :users
   get 'destroy/user_controller'
 

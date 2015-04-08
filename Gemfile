@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+#for pagination
+gem 'kaminari'
 #Ruby racer
 gem 'therubyracer'
 gem 'less-rails'
